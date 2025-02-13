@@ -1,4 +1,4 @@
-## Multi-Step LLM Research Agent
+# Multi-Step LLM Research Agent
 
 This repo contains a notebook which has a multi-step research tool making use of multiple agents each of which are equipped with specialized tools for performing their tasks.
 
@@ -6,7 +6,7 @@ The agent will be built using LangGraph and have web-search, RAG search, arXiv s
 
 Also, there is an ArXiv python scrapper tool so that you can get ArXiv papers if you wish to create your own vector database.
 
-# API Credentials
+## API Credentials
 
 In the notebook, we will accessing several external APIs for which you will need to create an account and API keys from.
 
@@ -14,7 +14,7 @@ In the notebook, we will accessing several external APIs for which you will need
 - Pinecone - This will allow you to create a vector database for a RAG tool. You can get a Pinecone account and API key here - https://www.pinecone.io/
 - SerpAPI - We will be using SerpAPIs Google search tool. You can get an API here - https://serpapi.com/
 
-# Resources
+## Resources
 
 - OpenAI's documentation - https://platform.openai.com/docs/api-reference/introduction
 - OpenAI's prompting guide - https://platform.openai.com/docs/guides/prompt-engineering
